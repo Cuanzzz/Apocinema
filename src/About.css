@@ -1,0 +1,99 @@
+.aboutus-container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 300px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    margin: 0;
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #385185;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #314170;
+  }
+  
+  .references {
+    margin-top: 40px;
+    padding: 20px 0;
+    border-top: 1px solid #ccc;
+  }
+  
+  .references h2 {
+    margin: 0 0 10px 0;
+  }
+  
+  .references p {
+    font-size: 16px;
+  }
+  
+  .instagram-btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #385185;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.instagram-btn:hover {
+  color: #fff;
+  background-color: #314d7a;
+  border-color: #2a4568;
+}
+
+.instagram-btn:focus, .instagram-btn:active {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(56, 81, 133, 0.5);
+}
+
+.card-body {
+  padding: 1rem;
+  text-align: center;
+}
+
+.instagram-link {
+  margin-top: 1rem;
+}
+

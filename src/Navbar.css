@@ -1,0 +1,28 @@
+.suggestions {
+    color: antiquewhite;
+    background-color: #333;
+    border: 1px solid #333;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1000;
+    max-height: 200px;
+    overflow-y: auto;
+    width: calc(100% - 24px); /* Lebar input */
+    margin-top: 10px;
+  }
+  
+  .suggestions div {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .suggestions div:hover {
+    background-color: #333;
+  }
+
+  .suggestion-poster {
+    width: 50px;
+    height: 70px;
+    margin-right: 10px;
+  }
+  

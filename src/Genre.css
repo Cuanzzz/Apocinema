@@ -1,0 +1,143 @@
+.genre-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+}
+
+.genre-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 800px;
+  border: 2px solid rgb(237, 145, 8);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.genre-item {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.genre-item:hover {
+  background-color: #0056b3;
+}
+
+.genre-item-selected {
+  background-color: #FF6347;
+  color: #fff;
+}
+
+.selected-genre {
+  margin-top: 20px;
+}
+
+.selected-genre-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.col-sm-12,
+.col-md-6,
+.col-lg-4,
+.col-xl-3 {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card {
+  max-width: 100%;
+}
+
+.card .card-img-top {
+  width: 100%;
+  height: auto;
+}
+
+.tombol {
+  display: flex;
+  justify-content: center;
+}
+
+.prev-button,
+.next-button {
+  background-color: #ffeb00;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.prev-button:hover,
+.next-button:hover {
+  background-color: #000;
+  color: #ffeb00;
+}
+
+.search-form {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.year-selection {
+  margin-top: 20px;
+}
+
+.year-selection label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.year-selection select {
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #fff;
+  color: #333;
+  margin-right: 40px;
+}
+
+.year-selection select:hover {
+  cursor: pointer;
+}
+
+.year-selection select:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.year-selection select option {
+  font-size: 16px;
+  color: #333;
+}
+
+.check
+{
+  margin-left: 5px;
+}

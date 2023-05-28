@@ -1,0 +1,119 @@
+.watched-container {
+    background-color: #191a1c;
+    color: white;
+    font-family: Arial, sans-serif;
+    position: relative;
+    padding-bottom: 70px; /* Penambahan padding di bagian bawah untuk memberikan ruang bagi tombol */
+  }
+  
+  .row {
+    animation: fadeIn 0.5s ease;
+  }
+  
+  #now {
+    color: antiquewhite;
+    font-size: 25px;
+    width: 140px;
+    margin-top: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(135px);
+  }
+  
+  #reco {
+    color: antiquewhite;
+    font-size: 25px;
+    width: 140px;
+    margin-top: 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateX(145px);
+  }
+  
+  .card {
+    background-color: #333;
+    color: white;
+    max-width: 320px;
+    margin: 20px auto;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease; /* Tambahkan transisi transform */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Perbesar card saat dihover */
+  }
+  
+  .card .card-img-top {
+    height: 100%;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 2%;
+  }
+  
+  .card .card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #191a1c;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 10px; /* Mengubah posisi bottom menjadi 10px */
+    width: 100%;
+  }
+  
+  .prev-button,
+  .next-button {
+    background-color: #FFEB00;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .prev-button:hover,
+  .next-button:hover {
+    background-color: #000;
+    color: #FFEB00;
+  }
+  
+  .search-form {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+  }

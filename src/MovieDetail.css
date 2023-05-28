@@ -1,0 +1,96 @@
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+
+.movie-poster {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.movie-detail-text {
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.movie-detail-text h1 {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.movie-detail-text h2 {
+  font-size: 20px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.movie-detail-text p {
+  margin-bottom: 10px;
+}
+
+.movie-detail-text .movie-detail-top {
+  color: white;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.movie-detail-text .movie-detail-top h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.movie-detail-text .movie-detail-top h2 {
+  font-size: 22px;
+}
+
+.movie-detail-text ul {
+  padding-left: 20px;
+}
+
+.movie-detail-text ul li {
+  margin-bottom: 5px;
+}
+
+/* CSS Responsive */
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+
+  .movie-detail-text h1, .movie-detail-text .movie-detail-top h1 {
+    font-size: 20px;
+  }
+
+  .movie-detail-text h2, .movie-detail-text .movie-detail-top h2 {
+    font-size: 18px;
+  }
+
+  .movie-detail-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .col-md-4, .col-md-8 {
+    max-width: 100%;
+  }
+
+  .movie-detail-text {
+    margin-top: 20px;
+  }
+}
