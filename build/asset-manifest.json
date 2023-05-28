@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9a7b8c87.css",
+    "main.js": "/static/js/main.94f6230b.js",
+    "static/media/Naufal.jpg": "/static/media/Naufal.258dffceb66c092f0b06.jpg",
+    "static/media/cuan.jpg": "/static/media/cuan.ba31494916bc4428e8d2.jpg",
+    "static/media/vito.jpg": "/static/media/vito.9d29c6d97f8818b5e821.jpg",
+    "static/media/2.png": "/static/media/2.c7ec0e89ce11ea7cb75d.png",
+    "static/media/3.png": "/static/media/3.8370fcd22e2d560d856c.png",
+    "static/media/Aron (2).jpg": "/static/media/Aron (2).f0615b2558a4696cc8ce.jpg",
+    "static/media/ApoCinema.png": "/static/media/ApoCinema.3f099380bc9c0c464036.png",
+    "static/media/1.png": "/static/media/1.df2c6bf9a885438df763.png",
+    "index.html": "/index.html",
+    "main.9a7b8c87.css.map": "/static/css/main.9a7b8c87.css.map",
+    "main.94f6230b.js.map": "/static/js/main.94f6230b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a7b8c87.css",
+    "static/js/main.94f6230b.js"
+  ]
+}
